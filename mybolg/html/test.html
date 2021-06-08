@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ 
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script language="JavaScript">
+		var Arraycolor = new Array("olive", "teal", "red", "green");
+		var n = 0;
+ 
+		function turncolors() {
+			if(n == (Arraycolor.length - 1)) {
+				n = 0
+			}
+			n++;
+			document.bgColor = Arraycolor[n];
+		}
+	</script>
+ 
+	<body>
+		
+			<button onclick="turncolors()"> 背景变换 </button>
+		
+	</body>
+ 
+</html>

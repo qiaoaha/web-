@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Strict//EN”
+“http://www.w3.org/TR/xhtml1/DTD/xhtml1- strict.dtd”>
+
+<!-- 中文网站 -->
+<html lang="zh-CN" >
+  <head>
+    <meta charset="UTF-8">
+    <!-- 引入css文件 -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- 引入js文件 -->
+    <script src="../js/game.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<boby>
+ 
+       
+
+   <div class=header>
+     <!-- 跟随鼠标特效 -->
+    <div id="back"></div> 
+    <!-- 时间显示 -->
+    <span id="Clock">时间：</span>
+    <!-- 问候语显示 -->
+    <span id="greeting"></span>
+    <!-- 导航栏 -->
+    <span class="nav">
+        <ul class="menu">
+            <li><a href="profile.html">个人简介</a>
+                <ul>
+                    <li><a href="profile.html">个人经历</a></li>
+                    <li><a href="profile.html">兴趣爱好</a></li>
+                </ul>
+            </li>
+            <li><a href="#">友情链接</a>
+                <ul>
+                    <li><a href="https://space.bilibili.com/400158267">BILIBILI</a></li>
+                    <li><a href="https://weibo.com/7185987064/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1">微博</a></li>
+                    <li><a href="https://github.com/qiaoaha">Github</a></li>
+                </ul>
+            </li>
+            <li><a href="food.html">美食分享</a>
+                <ul>
+                    <li><a href="food.html">美食图片</a></li>
+                    <li><a href="food.html">美食做法</a></li>
+                </ul>
+            </li>
+            <li><a href="movie.html">电影感悟</a>
+            <ul>
+                <li><a href="movie.html">电影推荐</a></li>
+                <li><a href="movie.html">电影感悟</a></li>
+            </ul>
+            </li>
+            <li><a href="#">游戏体验</a>
+                <ul>
+                    <li><a href="game1.html">攻略小花</a></li>
+                    <li><a href="game2.html">贪吃蛇模拟器</a></li>
+                </ul>
+            </li>
+            <li><a href="question.html">困难解决</a>
+               
+           </li>
+            <li><a href="../index.html">回到首页</a>
+            </li>
+        </ul>
+    </span>
+</div>
+<!--自动播放失效
+<embed height="10" width="100" src="../image/D.Mao - Stay With Me《孤单又灿烂的神-鬼怪》OST（翻自 PUNCH／朴灿烈.）.mp3" 
+            autostart=false hidden=ture title="第一首歌"></embed>-->
+
+<!--目前尽可在谷歌浏览器得到控制自动播放-->
+<!-- <embed  id="music" src="../image/D.Mao - Stay With Me《孤单又灿烂的神-鬼怪》OST（翻自 PUNCH／朴灿烈.）.mp3" play="false" flashvars="autoplay=false&play=false" menu="false"  hidden="false" loop="false"></embed> -->
+
+<audio id="music" src="../image/近藤浩治 - コイン (スーパーマリオブラザーズ効果音).mp3" autoplay></audio>
+<div class="man"id="man" >
+   
+<!--设置点击图片播放音乐-->
+<img src="../image/flower.jpg"  onClick="play1()" alt="user">
+<img src="../image/flower1.jpg"  onClick="play2()" alt="user">
+<img src="../image/flower2.jpg"  onClick="play3()" alt="user">
+<span class="text">点击正确的次数可以获得好感</span>
+
+</div>
+
+<!-- footer -->  
+<div class="footer">
+    <address>
+    <p> Written by WuShuyi</p>
+    <p>Contact information:</p>
+    <a href="mailto:2517729352@qq.com">2517729352@qq.com</a><br>
+    </address>
+</div>
+
+
+</body>
+</html>
